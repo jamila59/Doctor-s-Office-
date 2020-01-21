@@ -1,0 +1,18 @@
+@using Physician.Models;
+@model List<Physician.Models.Doctor>;
+
+<h4>Doctors</h4>
+
+@if (@Model.Count == 0)
+{
+    <h3>No doctors have been stored</h3>
+}
+
+<ul>
+  @foreach(Doctor doctor in Model)
+  {
+      <li>@Html.ActionLink($"{doctor.DoctorName}", "Details", new { id = doctor.DoctorId })</li>
+  }
+</ul>
+
+<p>@Html.ActionLink("Add a new Doctor", "Create", "Doctors")</p>

@@ -14,9 +14,6 @@
 /Users/Guest/Desktop/Physician.Solution/Physician.Solution/obj/Debug/netcoreapp2.2/Physician.TagHelpers.input.cache
 /Users/Guest/Desktop/Physician.Solution/Physician.Solution/obj/Debug/netcoreapp2.2/Physician.TagHelpers.output.cache
 /Users/Guest/Desktop/Physician.Solution/Physician.Solution/obj/Debug/netcoreapp2.2/Physician.RazorCoreGenerate.cache
-/Users/Guest/Desktop/Physician.Solution/Physician.Solution/obj/Debug/netcoreapp2.2/Razor/Views/Doctor/Create.g.cshtml.cs
-/Users/Guest/Desktop/Physician.Solution/Physician.Solution/obj/Debug/netcoreapp2.2/Razor/Views/Doctor/Details.g.cshtml.cs
-/Users/Guest/Desktop/Physician.Solution/Physician.Solution/obj/Debug/netcoreapp2.2/Razor/Views/Doctor/Index.g.cshtml.cs
 /Users/Guest/Desktop/Physician.Solution/Physician.Solution/obj/Debug/netcoreapp2.2/Razor/Views/Home/Index.g.cshtml.cs
 /Users/Guest/Desktop/Physician.Solution/Physician.Solution/obj/Debug/netcoreapp2.2/Razor/Views/Patient/Create.g.cshtml.cs
 /Users/Guest/Desktop/Physician.Solution/Physician.Solution/obj/Debug/netcoreapp2.2/Razor/Views/Patient/Details.g.cshtml.cs
@@ -28,3 +25,6 @@
 /Users/Guest/Desktop/Physician.Solution/Physician.Solution/obj/Debug/netcoreapp2.2/Physician.dll
 /Users/Guest/Desktop/Physician.Solution/Physician.Solution/obj/Debug/netcoreapp2.2/Physician.pdb
 /Users/Guest/Desktop/Physician.Solution/Physician.Solution/obj/Debug/netcoreapp2.2/Physician.csproj.CopyComplete
+/Users/Guest/Desktop/Physician.Solution/Physician.Solution/obj/Debug/netcoreapp2.2/Razor/Views/Doctors/Create.g.cshtml.cs
+/Users/Guest/Desktop/Physician.Solution/Physician.Solution/obj/Debug/netcoreapp2.2/Razor/Views/Doctors/Details.g.cshtml.cs
+/Users/Guest/Desktop/Physician.Solution/Physician.Solution/obj/Debug/netcoreapp2.2/Razor/Views/Doctors/Index.g.cshtml.cs

@@ -12160,11 +12160,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/Guest/Desktop/Physician.Solution/Physician.Solution/Physician.csproj",
+      "projectUniqueName": "/Users/Guest/Desktop/Doctor-s-Office-/Physician.csproj",
       "projectName": "Physician",
-      "projectPath": "/Users/Guest/Desktop/Physician.Solution/Physician.Solution/Physician.csproj",
+      "projectPath": "/Users/Guest/Desktop/Doctor-s-Office-/Physician.csproj",
       "packagesPath": "/Users/Guest/.nuget/packages/",
-      "outputPath": "/Users/Guest/Desktop/Physician.Solution/Physician.Solution/obj/",
+      "outputPath": "/Users/Guest/Desktop/Doctor-s-Office-/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

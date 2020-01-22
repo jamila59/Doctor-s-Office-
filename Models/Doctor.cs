@@ -10,8 +10,6 @@ namespace Physician.Models
         }
         public int DoctorId {get; set;}
         public string DoctorName {get; set;}
-        public string Specialty {get; set;}
-
-        public ICollection<DoctorPatient> Patients {get;}
+        public ICollection<DoctorPatient> Patients {get; set;}
     }
 }

@@ -8,6 +8,8 @@
       @Html.TextBoxFor(model => model.PatientName)
     
      
+    @Html.Label("Select Doctor")
+    @Html.DropDownList("DoctorId")
 
     <input type="submit" value="Add new patient" class="btn btn-default" />
 }

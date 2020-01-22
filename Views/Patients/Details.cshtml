@@ -1,0 +1,21 @@
+@model Physician.Models.Patient
+
+<h2>Patient Details</h2>
+<hr />
+<h3>@Html.DisplayNameFor(model => model.PatientName): @Html.DisplayFor(model => model.PatientName)</h3>
+
+@if(@Model.Doctors.Count == 0)
+{
+  <p>This patient does not belong to any doctors</p>
+}
+else
+{
+  <h4>Doctors the patient belongs to:</h4>
+  <ul>
+  @foreach(var join in Model.Doctors)
+  {
+    <li>@join.Doctor.DoctorName</li>
+  }
+  </ul>
+}
+<p>@Html.ActionLink("Back to list", "Index")</p>

@@ -1,5 +1,5 @@
 {
-  "FilePath": "/Users/Guest/Desktop/Physician.Solution/Physician.Solution/Physician.csproj",
+  "FilePath": "/Users/Guest/Desktop/Doctor-s-Office-/Physician.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-2.1",
     "LanguageVersion": "2.1",
@@ -2961,43 +2961,43 @@
   "RootNamespace": "Physician",
   "Documents": [
     {
-      "FilePath": "/Users/Guest/Desktop/Physician.Solution/Physician.Solution/Views/Doctors/Create.cshtml",
-      "TargetPath": "Views/Doctors/Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/Guest/Desktop/Physician.Solution/Physician.Solution/Views/Doctors/Details.cshtml",
-      "TargetPath": "Views/Doctors/Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/Guest/Desktop/Physician.Solution/Physician.Solution/Views/Patient/Index.cshtml",
-      "TargetPath": "Views/Patient/Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/Guest/Desktop/Physician.Solution/Physician.Solution/Views/Doctors/Index.cshtml",
-      "TargetPath": "Views/Doctors/Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/Guest/Desktop/Physician.Solution/Physician.Solution/Views/Home/Index.cshtml",
-      "TargetPath": "Views/Home/Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/Guest/Desktop/Physician.Solution/Physician.Solution/Views/Shared/_Layout.cshtml",
+      "FilePath": "/Users/Guest/Desktop/Doctor-s-Office-/Views/Shared/_Layout.cshtml",
       "TargetPath": "Views/Shared/_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/Guest/Desktop/Physician.Solution/Physician.Solution/Views/Patient/Create.cshtml",
-      "TargetPath": "Views/Patient/Create.cshtml",
+      "FilePath": "/Users/Guest/Desktop/Doctor-s-Office-/Views/Doctors/Create.cshtml",
+      "TargetPath": "Views/Doctors/Create.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/Guest/Desktop/Physician.Solution/Physician.Solution/Views/Patient/Details.cshtml",
-      "TargetPath": "Views/Patient/Details.cshtml",
+      "FilePath": "/Users/Guest/Desktop/Doctor-s-Office-/Views/Patients/Index.cshtml",
+      "TargetPath": "Views/Patients/Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/Guest/Desktop/Doctor-s-Office-/Views/Home/Index.cshtml",
+      "TargetPath": "Views/Home/Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/Guest/Desktop/Doctor-s-Office-/Views/Doctors/Index.cshtml",
+      "TargetPath": "Views/Doctors/Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/Guest/Desktop/Doctor-s-Office-/Views/Patients/Create.cshtml",
+      "TargetPath": "Views/Patients/Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/Guest/Desktop/Doctor-s-Office-/Views/Patients/Details.cshtml",
+      "TargetPath": "Views/Patients/Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/Guest/Desktop/Doctor-s-Office-/Views/Doctors/Details.cshtml",
+      "TargetPath": "Views/Doctors/Details.cshtml",
       "FileKind": "mvc"
     }
   ],

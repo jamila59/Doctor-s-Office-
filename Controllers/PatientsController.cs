@@ -22,11 +22,15 @@ namespace Physician.Controllers
     }
     
     [HttpPost]
-    public ActionResult Create(Patient patient)
+    public ActionResult Create(Patient patient, int DoctorId)
     {
-      _db.Patients.Add(patient);
-      _db.SaveChanges();
-      return RedirectToAction("Index");
+    _db.Patients.Add(patient);
+    if (DoctorId != 0)
+      {
+          _db.DoctorPatient.Add(new DoctorPatient() { DoctorId = DoctorId, PatientId = patient.PatientId });
+      }
+    _db.SaveChanges();
+    return RedirectToAction("Index");
     }
 
     public ActionResult Create()
@@ -36,7 +40,10 @@ namespace Physician.Controllers
 
     public ActionResult Details(int id)
     {
-      Patient thisPatient = _db.Patients.FirstOrDefault(patients => patients.PatientId == id);
+      var thisPatient = _db.Patients
+        .Include(patient => patient.Doctors)
+        .ThenInclude(join => join.Doctor)
+        .FirstOrDefault(patient => patient.PatientId == id);
       return View(thisPatient);
     }
   }
